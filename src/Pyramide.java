@@ -9,5 +9,5 @@ public abstract class Pyramide {
         return hoehe;
     }
 
-    public abstract float calcVolumen(float hoehe);
+    public abstract float calcVolumen();
 }
