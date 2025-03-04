@@ -5,6 +5,6 @@ public class Fuenfeck extends Pyramide {
         this.s = s;
     }
     public float calcVolumen() {
-        return (float) (0.25 * Math.sqrt(5*(5+2*Math.sqrt(5))) * s * s);
+        return (float) (0.25 * Math.sqrt(5*(5+2*Math.sqrt(5))) * s * s) * super.getHoehe() / 3;
     };
 }
